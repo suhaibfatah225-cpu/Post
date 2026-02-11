@@ -15,7 +15,7 @@ export const SidebarLeft = () => {
         <div className="px-6 pb-6 text-center relative">
           <div className="relative -mt-10 mb-3 inline-block">
             <img 
-              src={user?.image || "../Images/150 (1).jpg"} 
+              src={user?.image || "https://linked-posts.routemisr.com/uploads/default-profile.png"} 
               alt={user?.name} 
               className="w-20 h-20 rounded-full border-4 border-white object-cover shadow-sm mx-auto bg-white"
             />
