@@ -139,7 +139,7 @@ const Signup = () => {
               </div>
               <div>
                 <div className="flex items-center gap-2 font-bold text-2xl">
-<img src="https://pngimg.com/uploads/heart/heart_PNG51335.png" alt="" />                   10M+
+<img src="https://pngimg.com/uploads/heart/heart_PNG51335.png" className="w-5 h-5" alt="" />                   10M+
                 </div>
                 <div className="text-sm text-blue-200 mt-1">Posts Shared</div>
               </div>
