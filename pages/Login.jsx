@@ -171,7 +171,6 @@ const Login = () => {
               Facebook
             </button>
           </div>
-
           <div className="relative mb-8">
             <div className="absolute inset-0 flex items-center">
               <div className="w-full border-t border-gray-100"></div>
