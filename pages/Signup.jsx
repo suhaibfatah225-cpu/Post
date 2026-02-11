@@ -133,19 +133,19 @@ const Signup = () => {
           <div className="flex gap-10">
               <div>
                 <div className="flex items-center gap-2 font-bold text-2xl">
-<img src="../Images/image (3).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />                   2M+
+<img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" className="w-5 h-5" alt="" />                   2M+
                 </div>
                 <div className="text-sm text-blue-200 mt-1">Active Users</div>
               </div>
               <div>
                 <div className="flex items-center gap-2 font-bold text-2xl">
-<img src="../Images/image (4).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />                   10M+
+<img src="https://pngimg.com/uploads/heart/heart_PNG51335.png" alt="" />                   10M+
                 </div>
                 <div className="text-sm text-blue-200 mt-1">Posts Shared</div>
               </div>
               <div>
                 <div className="flex items-center gap-2 font-bold text-2xl">
-<img src="../Images/image (5).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />                   50M+
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" className="w-5 h-5" alt="" />                   50M+
                 </div>
                 <div className="text-sm text-blue-200 mt-1">Messages Sent</div>
               </div>
@@ -157,7 +157,7 @@ const Signup = () => {
              <div className="flex text-yellow-400 mb-3 text-sm">★★★★★</div>
              <p className="text-base leading-relaxed mb-4 font-light italic opacity-95">"SocialHub has completely changed how I connect with friends and discover new communities. The experience is seamless!"</p>
              <div className="flex items-center gap-3">
-               <img src="../Images/alex-avatar-BLDJqiDr.png" alt="User" className="w-10 h-10 rounded-full border-2 border-white/30" />
+               <img src="https://www.w3schools.com/howto/img_avatar.png" alt="User" className="w-10 h-10 rounded-full border-2 border-white/30" />
                <div>
                   <div className="font-semibold text-sm">Alex Johnson</div>
                   <div className="text-xs text-blue-200">Product Designer</div>
