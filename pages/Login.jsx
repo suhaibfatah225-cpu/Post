@@ -56,7 +56,7 @@ const Login = () => {
   return (
     <div className="flex min-h-screen w-full font-sans bg-gray-50 overflow-hidden">
       
-     <div className="hidden lg:flex w-1/2 relative bg-blue-600 text-white flex-col justify-between p-16 overflow-hidden">
+      <div className="hidden lg:flex w-1/2 relative bg-blue-600 text-white flex-col justify-between p-16 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1d4ed8] via-[#1e40af] to-[#172554] z-0"></div>
         <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none z-0">
              <div className="absolute top-10 left-10 w-64 h-64 bg-blue-400 rounded-full mix-blend-overlay filter blur-3xl"></div>
@@ -83,28 +83,28 @@ const Login = () => {
             
             <div className="bg-white/10 backdrop-blur-md border border-white/10 p-4 rounded-xl hover:bg-white/15 transition-colors cursor-default">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center mb-3 text-emerald-300">
-<img src="https://cdn-icons-png.flaticon.com/512/2462/2462719.png" className="w-5 h-5" alt="" />               </div>
+<img src="../Images/image.svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
               <h3 className="font-semibold text-sm">Real-time Chat</h3>
               <p className="text-xs text-blue-200 opacity-70 mt-1">Instant messaging</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/10 p-4 rounded-xl hover:bg-white/15 transition-colors cursor-default">
               <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center mb-3 text-blue-300">
-<img src="https://cdn-icons-png.flaticon.com/512/1827/1827541.png" className="w-5 h-5" alt="" />               </div>
+<img src="../Images/image (1).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
               <h3 className="font-semibold text-sm">Share Media</h3>
               <p className="text-xs text-blue-200 opacity-70 mt-1">Photos & videos</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/10 p-4 rounded-xl hover:bg-white/15 transition-colors cursor-default">
               <div className="w-10 h-10 rounded-lg bg-rose-500/20 flex items-center justify-center mb-3 text-rose-300">
-<img src="https://cdn-icons-png.flaticon.com/512/1827/1827349.png" className="w-5 h-5" alt="" />               </div>
+<img src="../Images/image (2).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
               <h3 className="font-semibold text-sm">Smart Alerts</h3>
               <p className="text-xs text-blue-200 opacity-70 mt-1">Stay updated</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/10 p-4 rounded-xl hover:bg-white/15 transition-colors cursor-default">
               <div className="w-10 h-10 rounded-lg bg-teal-500/20 flex items-center justify-center mb-3 text-teal-300">
-<img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
+<img src="../Images/image (3).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
               <h3 className="font-semibold text-sm">Communities</h3>
               <p className="text-xs text-blue-200 opacity-70 mt-1">Find your tribe</p>
             </div>
@@ -113,19 +113,19 @@ const Login = () => {
           <div className="flex gap-10">
               <div>
                 <div className="flex items-center gap-2 font-bold text-2xl">
-<img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" className="w-5 h-5" alt="" />                   2M+
+<img src="../Images/image (3).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />                   2M+
                 </div>
                 <div className="text-sm text-blue-200 mt-1">Active Users</div>
               </div>
               <div>
                 <div className="flex items-center gap-2 font-bold text-2xl">
-<img src="https://pngimg.com/uploads/heart/heart_PNG51335.png" className="w-5 h-5" alt="" />                   10M+
+<img src="../Images/image (4).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />                   10M+
                 </div>
                 <div className="text-sm text-blue-200 mt-1">Posts Shared</div>
               </div>
               <div>
                 <div className="flex items-center gap-2 font-bold text-2xl">
-<img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" className="w-5 h-5" alt="" />                   50M+
+<img src="../Images/image (5).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />                   50M+
                 </div>
                 <div className="text-sm text-blue-200 mt-1">Messages Sent</div>
               </div>
@@ -137,7 +137,7 @@ const Login = () => {
              <div className="flex text-yellow-400 mb-3 text-sm">★★★★★</div>
              <p className="text-base leading-relaxed mb-4 font-light italic opacity-95">"SocialHub has completely changed how I connect with friends and discover new communities. The experience is seamless!"</p>
              <div className="flex items-center gap-3">
-               <img src="https://www.w3schools.com/howto/img_avatar.png" alt="User" className="w-10 h-10 rounded-full border-2 border-white/30" />
+               <img src="../Images/alex-avatar-BLDJqiDr.png" alt="User" className="w-10 h-10 rounded-full border-2 border-white/30" />
                <div>
                   <div className="font-semibold text-sm">Alex Johnson</div>
                   <div className="text-xs text-blue-200">Product Designer</div>
@@ -166,11 +166,12 @@ const Login = () => {
  alt="" /> 
               Google
             </button>
-            <button type="button" className="flex items-center justify-center px-4 py-2.5 rounded-lg bg-[#1976d2] text-sm font-medium text-white hover:bg-[#166fe5] transition-colors shadow-sm">
-              <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" className="w-5 h-5" alt="" /> 
+            <button type="button" className="flex items-center justify-center px-4 py-2.5 rounded-lg bg-[#1877F2] text-sm font-medium text-white hover:bg-[#166fe5] transition-colors shadow-sm">
+              <img src="../Images/image (7).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" /> 
               Facebook
             </button>
           </div>
+
           <div className="relative mb-8">
             <div className="absolute inset-0 flex items-center">
               <div className="w-full border-t border-gray-100"></div>
@@ -191,7 +192,12 @@ const Login = () => {
             <div>
               <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5 ml-1">Email Address</label>
               <div className="relative">
-                
+                 <span className="absolute left-4 top-3.5 text-gray-400">
+<img src="../Images/image (8).svg" className="w-5 h-5" style={{
+  filter:
+    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
+}}
+ alt="" />                 </span>
                  <input
                   id="email"
                   name="email"
@@ -208,7 +214,12 @@ const Login = () => {
             <div>
               <label htmlFor="password" className="block text-sm font-semibold text-gray-700 mb-1.5 ml-1">Password</label>
               <div className="relative">
-                
+                <span className="absolute left-4 top-3.5 text-gray-400">
+<img src="../Images/image (9).svg" className="w-5 h-5" style={{
+  filter:
+    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
+}}
+ alt="" />                  </span>
                 <input
                   id="password"
                   name="password"
@@ -233,7 +244,14 @@ const Login = () => {
                   Processing...
                 </span>
               ) : (
-                
+                <span className="flex items-center">
+                  Sign in 
+                  <img src="../Images/image (10).svg" className="w-5 h-5 pl-2" style={{
+  filter:
+    "invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(105%) contrast(105%)"
+}}
+ alt="" />
+                </span>
               )}
             </button>
           </form>
