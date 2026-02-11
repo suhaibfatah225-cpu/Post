@@ -29,10 +29,7 @@ export const CreatePost = () => {
       
       <div className="flex items-center justify-between pt-2 border-t border-gray-100">
          <button className="flex items-center space-x-2 text-gray-500 hover:bg-gray-50 px-3 py-2 rounded-lg transition-colors">
-<img src="https://www.pngkey.com/png/detail/89-898482_home-icon-home-icon-transparent.png" className="w-5 h-5" style={{
-  filter:
-    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
-}}
+<img src="https://www.pngkey.com/png/detail/89-898482_home-icon-home-icon-transparent.png" className="w-5 h-5" 
  alt="" />             <span className="text-sm font-medium">Photo</span>
          </button>
          <button className="bg-[#0084c0] text-white px-6 py-2 rounded-lg text-sm font-medium flex items-center shadow-sm transition-colors">
