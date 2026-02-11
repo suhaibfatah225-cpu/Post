@@ -166,8 +166,8 @@ const Login = () => {
  alt="" /> 
               Google
             </button>
-            <button type="button" className="flex items-center justify-center px-4 py-2.5 rounded-lg bg-[#1877F2] text-sm font-medium text-white hover:bg-[#166fe5] transition-colors shadow-sm">
-              <img src="../Images/image (7).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" /> 
+            <button type="button" className="flex items-center justify-center px-4 py-2.5 rounded-lg bg-[#1976d2] text-sm font-medium text-white hover:bg-[#166fe5] transition-colors shadow-sm">
+              <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" className="w-5 h-5" alt="" /> 
               Facebook
             </button>
           </div>
@@ -192,12 +192,7 @@ const Login = () => {
             <div>
               <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5 ml-1">Email Address</label>
               <div className="relative">
-                 <span className="absolute left-4 top-3.5 text-gray-400">
-<img src="../Images/image (8).svg" className="w-5 h-5" style={{
-  filter:
-    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
-}}
- alt="" />                 </span>
+                
                  <input
                   id="email"
                   name="email"
@@ -214,12 +209,7 @@ const Login = () => {
             <div>
               <label htmlFor="password" className="block text-sm font-semibold text-gray-700 mb-1.5 ml-1">Password</label>
               <div className="relative">
-                <span className="absolute left-4 top-3.5 text-gray-400">
-<img src="../Images/image (9).svg" className="w-5 h-5" style={{
-  filter:
-    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
-}}
- alt="" />                  </span>
+                
                 <input
                   id="password"
                   name="password"
@@ -244,14 +234,7 @@ const Login = () => {
                   Processing...
                 </span>
               ) : (
-                <span className="flex items-center">
-                  Sign in 
-                  <img src="../Images/image (10).svg" className="w-5 h-5 pl-2" style={{
-  filter:
-    "invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(105%) contrast(105%)"
-}}
- alt="" />
-                </span>
+                
               )}
             </button>
           </form>
