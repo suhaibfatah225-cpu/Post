@@ -10,9 +10,9 @@ export const SidebarRight = () => {
   ];
 
   const suggestedUsers = [
-    { name: 'Sarah Wilson', handle: '@sarahw', img: '../Images/150 (1).jpg' },
-    { name: 'Mike Chen', handle: '@mikechen', img: '../Images/150.jpg' },
-    { name: 'Emily Davis', handle: '@emilyd', img: '../Images/Man.jpg' },
+    { name: 'Sarah Wilson', handle: '@sarahw', img: 'https://www.clipartmax.com/png/middle/15-153152_male-user-icon-male-user-icon.png' },
+    { name: 'Mike Chen', handle: '@mikechen', img: 'https://www.clipartmax.com/png/middle/144-1442560_person-male-icon.png' },
+    { name: 'Emily Davis', handle: '@emilyd', img: 'https://i.pravatar.cc/150?img=3' },
   ];
 
   return (
