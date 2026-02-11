@@ -1,0 +1,5 @@
+{
+  "name": "Linked Posts Social App",
+  "description": "A social media application clone with authentication and protected routes.",
+  "requestFramePermissions": []
+}

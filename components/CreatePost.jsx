@@ -1,0 +1,44 @@
+import React from 'react';
+import { useAuth } from '../context/AuthContext';
+
+export const CreatePost = () => {
+  const { user } = useAuth();
+
+  return (
+    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6">
+      <div className="flex items-start space-x-3 mb-4">
+        <img 
+          src={user?.image || "../Images/150 (1).jpg"} 
+          alt="User" 
+          className="w-10 h-10 rounded-full object-cover border border-gray-200"
+        />
+        <div className="flex-1">
+          <h3 className="text-sm font-bold text-gray-800">Create a Post</h3>
+          <p className="text-xs text-gray-400 mb-3">Share your thoughts with the world</p>
+          <div className="relative">
+             <div className="absolute top-3 left-3 text-gray-400">
+<img src="../Images/preview.jpg" className="w-5 h-5" alt="" /> 
+            </div>
+             <textarea 
+                className="w-full bg-gray-50 border border-gray-200 rounded-lg py-3 pl-9 pr-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 resize-none min-h-[80px]" 
+                placeholder="what's on your mind ?"
+             ></textarea>
+          </div>
+        </div>
+      </div>
+      
+      <div className="flex items-center justify-between pt-2 border-t border-gray-100">
+         <button className="flex items-center space-x-2 text-gray-500 hover:bg-gray-50 px-3 py-2 rounded-lg transition-colors">
+<img src="../Images/image (1).svg" className="w-5 h-5" style={{
+  filter:
+    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
+}}
+ alt="" />             <span className="text-sm font-medium">Photo</span>
+         </button>
+         <button className="bg-[#0084c0] text-white px-6 py-2 rounded-lg text-sm font-medium flex items-center shadow-sm transition-colors">
+            Post
+<img src="../Images/Paper.png" className='w-5 h-5' alt="" />         </button>
+      </div>
+    </div>
+  );
+};
