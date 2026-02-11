@@ -103,28 +103,28 @@ const Signup = () => {
             
             <div className="bg-white/10 backdrop-blur-md border border-white/10 p-4 rounded-xl hover:bg-white/15 transition-colors cursor-default">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center mb-3 text-emerald-300">
-<img src="../Images/image.svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
+<img src="https://cdn-icons-png.flaticon.com/512/2462/2462719.png" className="w-5 h-5" alt="" />               </div>
               <h3 className="font-semibold text-sm">Real-time Chat</h3>
               <p className="text-xs text-blue-200 opacity-70 mt-1">Instant messaging</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/10 p-4 rounded-xl hover:bg-white/15 transition-colors cursor-default">
               <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center mb-3 text-blue-300">
-<img src="../Images/image (1).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
+<img src="https://cdn-icons-png.flaticon.com/512/1827/1827541.png" className="w-5 h-5" alt="" />               </div>
               <h3 className="font-semibold text-sm">Share Media</h3>
               <p className="text-xs text-blue-200 opacity-70 mt-1">Photos & videos</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/10 p-4 rounded-xl hover:bg-white/15 transition-colors cursor-default">
               <div className="w-10 h-10 rounded-lg bg-rose-500/20 flex items-center justify-center mb-3 text-rose-300">
-<img src="../Images/image (2).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
+<img src="https://cdn-icons-png.flaticon.com/512/1827/1827349.png" className="w-5 h-5" alt="" />               </div>
               <h3 className="font-semibold text-sm">Smart Alerts</h3>
               <p className="text-xs text-blue-200 opacity-70 mt-1">Stay updated</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-md border border-white/10 p-4 rounded-xl hover:bg-white/15 transition-colors cursor-default">
               <div className="w-10 h-10 rounded-lg bg-teal-500/20 flex items-center justify-center mb-3 text-teal-300">
-<img src="../Images/image (3).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
+<img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" />               </div>
               <h3 className="font-semibold text-sm">Communities</h3>
               <p className="text-xs text-blue-200 opacity-70 mt-1">Find your tribe</p>
             </div>
