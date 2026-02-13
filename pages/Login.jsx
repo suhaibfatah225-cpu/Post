@@ -160,15 +160,11 @@ const Login = () => {
 
           <div className="grid grid-cols-2 gap-4 mb-8">
             <button type="button" className="flex items-center justify-center px-4 py-2.5 border border-gray-200 rounded-lg bg-white text-sm font-medium text-gray-600 hover:bg-gray-50 hover:border-gray-300 transition-all">
-              <img src="../Images/image (6).svg" className="w-8 h-8 pr-1" style={{
-  filter:
-    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
-}}
- alt="" /> 
+              
               Google
             </button>
             <button type="button" className="flex items-center justify-center px-4 py-2.5 rounded-lg bg-[#1877F2] text-sm font-medium text-white hover:bg-[#166fe5] transition-colors shadow-sm">
-              <img src="../Images/image (7).svg" className="w-5 h-5" style={{ filter: "invert(100%)" }} alt="" /> 
+             
               Facebook
             </button>
           </div>
@@ -194,11 +190,7 @@ const Login = () => {
               <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5 ml-1">Email Address</label>
               <div className="relative">
                  <span className="absolute left-4 top-3.5 text-gray-400">
-<img src="../Images/image (8).svg" className="w-5 h-5" style={{
-  filter:
-    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
-}}
- alt="" />                 </span>
+                 </span>
                  <input
                   id="email"
                   name="email"
@@ -216,11 +208,7 @@ const Login = () => {
               <label htmlFor="password" className="block text-sm font-semibold text-gray-700 mb-1.5 ml-1">Password</label>
               <div className="relative">
                 <span className="absolute left-4 top-3.5 text-gray-400">
-<img src="../Images/image (9).svg" className="w-5 h-5" style={{
-  filter:
-    "invert(65%) sepia(6%) saturate(347%) hue-rotate(180deg) brightness(92%) contrast(88%)"
-}}
- alt="" />                  </span>
+ </span>
                 <input
                   id="password"
                   name="password"
