@@ -235,11 +235,7 @@ const Login = () => {
               ) : (
                 <span className="flex items-center">
                   Sign in 
-                  <img src="../Images/image (10).svg" className="w-5 h-5 pl-2" style={{
-  filter:
-    "invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(105%) contrast(105%)"
-}}
- alt="" />
+                  
                 </span>
               )}
             </button>
